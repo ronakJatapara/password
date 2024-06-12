@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="a1">
+    <br><br>
+    <button type="button" onclick="cal()">Click</button>
+    <br><br>
+    <input type="text" id="ans">
+</body>
+
+
+<script>
+  function cal()
+  {
+    let b1=document.getElementById('a1').value;
+
+if(b1%4==0)
+{
+   document.getElementById('ans').value="this is leap year";
+}
+else{
+   document.getElementById('ans').value="this isn't leap year";
+
+}
+  }
+</script>
+
+
+
+</html>
